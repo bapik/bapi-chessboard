@@ -1,0 +1,54 @@
+{
+  "name": "bapi-react-chessboard",
+  "version": "1.0.5",
+  "description": "React chessboard",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chessboard",
+    "chess",
+    "react"
+  ],
+  "author": "Bartłomiej Spyrka",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-auto-import": "^1.1.0",
+    "chess.js": "^0.12.0",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.2.0",
+    "stockfish": "^12.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "4.1.2",
+    "webpack-server": "^0.1.2"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
+  }
+}
